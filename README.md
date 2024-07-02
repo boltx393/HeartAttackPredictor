@@ -9,8 +9,6 @@ This project aims to develop an application that predicts the risk of a heart at
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 Cardiovascular diseases, including heart attacks, are leading causes of mortality worldwide. Early prediction and intervention can save lives. This project utilizes machine learning techniques to predict heart attack risks based on various health indicators and features extracted from the dataset.
