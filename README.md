@@ -5,38 +5,25 @@ This project aims to develop an application that predicts the risk of a heart at
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Features](#Key-Features)
 - [Project Structure](#project-structure)
 
 ## Introduction
 Cardiovascular diseases, including heart attacks, are leading causes of mortality worldwide. Early prediction and intervention can save lives. This project utilizes machine learning techniques to predict heart attack risks based on various health indicators and features extracted from the dataset.
 
-## Features
-- **Data Analysis:** Understanding and visualizing the dataset.
-- **Feature Engineering:** Creating new features from existing data.
-- **Standardization:** Normalizing the data for better model performance.
-- **Model Building:** Implementing multiple machine learning algorithms.
-- **AutoML with EvalML:** Using EvalML to automate model selection and tuning.
-- **Prediction:** Making predictions on new data.
 
-## Installation
-To install the necessary dependencies, run:
-```bash
-pip install pandas numpy seaborn matplotlib evalml
-```
+## Key Features
+- **Data Preprocessing:** Handling missing values, outliers, and categorical variables.
+- **Feature Engineering:** Creation of interaction terms and polynomial features to capture complex relationships.
+- **Model Development:** Implemented and compared various machine learning algorithms, including:
+  - Logistic Regression
+  - Decision Trees
+  - Random Forests
+  - K-Nearest Neighbors (KNN)
+  - Support Vector Machines (SVM)
+- **Model Evaluation:** Achieved **92% accuracy** and **88.5% AUC score** using the Random Forest model.
+- **Feature Importance Analysis:** Identified key predictors like age, cholesterol levels, and blood pressure.
 
-## Usage
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/heart-attack-risk-predictor.git
-    cd heart-attack-risk-predictor
-    ```
-2. Run the Jupyter notebook to see the analysis and model training process:
-    ```bash
-    jupyter notebook Heart_Attack_Risk_Predictor_with_EvalML.ipynb
-    ```
 
 ## Project Structure
 ```
@@ -50,9 +37,3 @@ heart-attack-risk-predictor/
 ```
 
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
-Feel free to customize the content to better fit your specific project details and preferences.
